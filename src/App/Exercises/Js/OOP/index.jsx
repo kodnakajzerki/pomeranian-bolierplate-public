@@ -5,6 +5,7 @@
 // ]
 
 import { OOPClass } from './OOPClass';
+import { OOPExercises } from './OOPExcercises';
 import { OOPPillars } from './OOPPillars';
 
 // const people = [
@@ -77,6 +78,7 @@ export const Exercise = () => {
       OOP
       <OOPClass />
       <OOPPillars />
+      <OOPExercises />
     </div>
   );
 };
