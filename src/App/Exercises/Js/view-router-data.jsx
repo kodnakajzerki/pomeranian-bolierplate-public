@@ -19,6 +19,11 @@ import { blockRouterMetaData as blockRouterMetaDataTimer } from './Timer/router-
 import { blockRouterMetaData as blockRouterMetaDataJsSlidingBanner } from './JsSlidingBanner/router-data';
 import { blockRouterMetaData as blockRouterMetaDataMemoGame } from './MemoGame/router-data';
 import { blockRouterMetaData as blockRouterMetaDataOOP } from './OOP/router-data';
+import { blockRouterMetaData as blockRouterMetaDataJsStorage } from './JsStorage/router-data';
+import { blockRouterMetaData as blockRouterMetaDataPromisesAndMe } from './PromisesAndMe/router-data';
+import { blockRouterMetaData as blockRouterMetaDataUseEffectAndPromiseExcercise } from './UseEffectAndPromiseExcercise/router-data';
+import { blockRouterMetaData as blockRouterMetaDataPromisesMethods } from './PromisesMethods/router-data';
+import { blockRouterMetaData as blockRouterMetaDataPromisesMethodsTraining } from './PromisesMethodsTraining/router-data';
 
 export const blockRouterMetaData = [
   blockRouterMetaDataJsVariables1,
@@ -40,5 +45,10 @@ export const blockRouterMetaData = [
   blockRouterMetaDataJsSlidingBanner,
   blockRouterMetaDataMemoGame,
   blockRouterMetaDataOOP,
+  blockRouterMetaDataJsStorage,
+  blockRouterMetaDataPromisesAndMe,
+  blockRouterMetaDataUseEffectAndPromiseExcercise,
+  blockRouterMetaDataPromisesMethods,
+  blockRouterMetaDataPromisesMethodsTraining,
 ];
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);
