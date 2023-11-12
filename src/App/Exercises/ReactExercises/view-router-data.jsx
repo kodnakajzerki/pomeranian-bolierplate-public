@@ -8,6 +8,8 @@ import { ReactGuessNumberMetaData } from './ReactGuessNumber/router-data';
 import { blockRouterMetaData as blockRouterMetaDataHitTheMole } from './HitTheMole/router-data';
 import { blockRouterMetaData as blockRouterMetaDataToDoWithServer } from './ToDoWithServer/router-data';
 import { blockRouterMetaData as blockRouterMetaDataToDo } from './ToDoWithServer2/router-data';
+import { blockRouterMetaData as blockRouterMetaDataBasicForms } from './BasicForms/router-data';
+import { blockRouterMetaData as blockRouterMetaDataReactHookBasicForms } from './ReactHookBasicForms/router-data';
 
 export const blockRouterMetaData = [
   SubRouteExampleMetaData,
@@ -18,5 +20,7 @@ export const blockRouterMetaData = [
   blockRouterMetaDataHitTheMole,
   blockRouterMetaDataToDoWithServer,
   blockRouterMetaDataToDo,
+  blockRouterMetaDataBasicForms,
+  blockRouterMetaDataReactHookBasicForms,
 ];
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);
